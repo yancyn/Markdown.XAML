@@ -416,7 +416,7 @@ namespace Markdown.Xaml
             // Bind size so document is updated when image is downloaded
             if (imgSource.IsDownloading)
             {
-                Binding binding = new Binding(nameof(BitmapImage.Width));
+                Binding binding = new Binding("Width");
                 binding.Source = imgSource;
                 binding.Mode = BindingMode.OneWay;
 
