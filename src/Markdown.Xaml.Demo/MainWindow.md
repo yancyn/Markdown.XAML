@@ -42,4 +42,12 @@ left pane, the rendered MarkDown will appear in the right pane.
 Review the source for this demo to see how MarkDown.Xaml works in practice, how to use the TextToFlowDocumentConverter,
 and how to style the output to appear the way you desire.
 
+## [Gitlab Customized Syntax](https://github.com/gitlabhq/gitlabhq/blob/master/doc/markdown/markdown.md)
 
+## Table
+
+| Name | Description | Units | Default |
+| -------- |  -------- |  -------- |  -------- |
+| Impedance | Characteristic impedance | Ohms | 0 |
+| Frequency | Reference frequency for electrical length | Hertz | 0 |
+| Angle | Degrees | 0 |
